@@ -33,32 +33,32 @@ end
 
 puts "homes here we go 🏚️🏚️🏚️🏚️"
 # seeding houses
-House.create(estate_name: "Jamhuri Estate" ,
-  img_url: "https://images.unsplash.com/photo-1565953522043-baea26b83b7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-  price: 50000,
+House.create(estate_name: "Mountain view" ,
+  img_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbEGlbTady8H5cCdzAC0oAV4hdkJfbJjrTIA&usqp=CAU",
+  price: 70000000,
   user_id: 1,
   landlord_id: 1,
-  location: "Ngong Rd" ,
-  description: "This elegant apartment has a very spacious compound with ample vehicle parking space and sufficient water supply. It is up for rent. Large bedrooms with big windows allowing in a lot of natural light. *Sufficient supply of water from both Nairobi Water and Sewerage Company (NWSC) and a borehole on site.",
-  house_type:"Apartment",
+  location: "Mountain View" ,
+  description: "This elegant maisonette has a very spacious compound with ample vehicle parking space and sufficient water supply. It is up for sale. Large bedrooms with big windows allowing in a lot of natural light. *Sufficient supply of water from both Nairobi Water and Sewerage Company (NWSC) and a borehole on site.",
+  house_type:"maisonette",
   bedrooms: 4)
-House.create(estate_name: "Athi View Estate",
-  img_url: "https://images.unsplash.com/photo-1612637968894-660373e23b03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-  price: 45000,
+House.create(estate_name: "Runda Estate",
+  img_url: "https://images.unsplash.com/photo-1583522843296-3e19341aecb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJ1bmdhbG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  price: 45000000,
   user_id: 2,
   landlord_id: 2,
-  location: "Syokimau" ,
+  location: "Runda" ,
   description: "Big and spacious rooms. Master bedroom suite with wardrobes and a walk-in shower. All rooms with wardrobes, tiles, and wall curtain hangings. Has a utility area. Wardrobes and cabinets. Parking space for each unit with independent access to a private garden.",
-  house_type: "Apartment",
+  house_type: "Bungalow",
   bedrooms: 3)
-House.create(estate_name: "Airways Estate" ,
-  img_url: "https://images.unsplash.com/photo-1594484208280-efa00f96fc21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-  price: 40000,
+House.create(estate_name: "Acacia estate" ,
+  img_url: "https://images.unsplash.com/photo-1631566768468-1857b2aaac03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGJ1bmdhbG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  price: 20000000,
   user_id: 3,
   landlord_id: 3,
-  location: "Utawala" ,
-  description: "This modern elegant apartment boasts modern fixtures fittings and finishings ready for occupancy. Has sliding glass windows, an open kitchen plan,fans,fully tiled, plenty of water, parking, and security.",
-  house_type: "Apartment",
+  location: "Runda" ,
+  description: "This modern elegant bungalow boasts modern fixtures fittings and finishings ready for occupancy. Has sliding glass windows, an open kitchen plan,fans,fully tiled, plenty of water, parking, and security.",
+  house_type: "bungalow",
   bedrooms: 3)
 House.create(estate_name: "Mirema Greens Estate" ,
   img_url: "https://images.unsplash.com/photo-1560026301-88340cf16be7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80" ,
@@ -144,4 +144,4 @@ Booking.create(user_id: 1,house_id: 1,booking_date: "2023-2-4")
 Booking.create(user_id: 3,house_id: 4,booking_date: "2023-3-4")
 
 
-puts "End of seeding data! 🔥🔥🔥🔥"
+puts "seeding ended..."
